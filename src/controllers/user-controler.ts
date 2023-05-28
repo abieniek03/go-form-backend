@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 import { calcBMI, calcKcal } from '../utils/calcParameters';
-import setFileName from './setFileName';
+import setFileName from '../utils/setFileName';
 
 import path from 'path';
 
