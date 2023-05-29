@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const calcParameters_1 = require("../utils/calcParameters");
-const setFileName_1 = __importDefault(require("./setFileName"));
+const setFileName_1 = __importDefault(require("../utils/setFileName"));
 const path_1 = __importDefault(require("path"));
 const sendResponse = (req, res) => {
     if (req.body) {
